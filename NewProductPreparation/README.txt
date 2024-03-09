@@ -1,0 +1,15 @@
+H2コンソールを使用します。
+
+JDBC_URL:jdbc:h2:tcp://localhost/~/example
+ユーザー名:sa
+パスワード:なし
+
+データベース作成のSQL文は以下です。
+
+CREATE TABLE PRODUCT(
+NAME VARCHAR(100) PRIMARY KEY,
+WIDTH INTEGER NOT NULL,
+LOT INTEGER NOT NULL,
+INCASE INTEGER NOT NULL,
+OUTRATE INTEGER NOT NULL
+)
